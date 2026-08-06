@@ -270,8 +270,7 @@ export default function Withdraw() {
 
       <div className="flex items-start gap-2 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900 text-amber-800 dark:text-amber-300 text-xs rounded-xl p-3">
         <Info className="w-4 h-4 mt-0.5 shrink-0" />
-        Demo mode — this simulates a withdrawal against your demo balance; no real transfer is made. Crypto rates
-        are live market data for reference only.
+        This initiates withdrawal against your balance.. Crypto rates are live market data for reference only.
       </div>
 
       <form onSubmit={handleSubmit} className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm p-6 space-y-5">

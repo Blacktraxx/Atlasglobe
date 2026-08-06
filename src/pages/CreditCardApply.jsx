@@ -71,7 +71,7 @@ export default function CreditCardApply() {
 
       <div className="flex items-start gap-2 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900 text-amber-800 dark:text-amber-300 text-xs rounded-xl p-3">
         <Info className="w-4 h-4 mt-0.5 shrink-0" />
-        Demo mode: this is a sample application form. Please don't enter real personal information.
+        Please EnterPersonal Information.
       </div>
 
       <form onSubmit={handleSubmit} className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm p-6 space-y-5">
@@ -89,7 +89,7 @@ export default function CreditCardApply() {
             <Input value={form.phone} onChange={update("phone")} required />
           </div>
           <div className="space-y-2">
-            <Label>SSN (demo — sample data only)</Label>
+            <Label>SSN</Label>
             <Input value={form.ssn} onChange={update("ssn")} placeholder="XXX-XX-XXXX" required />
           </div>
         </div>

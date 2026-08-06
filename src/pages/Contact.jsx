@@ -78,7 +78,7 @@ export default function Contact() {
             </div>
             <div>
               <p className="font-semibold text-slate-900 dark:text-white text-sm">Call Us</p>
-              <p className="text-xs text-slate-400 dark:text-slate-500">+1 (800) 555-0100</p>
+              <p className="text-xs text-slate-400 dark:text-slate-500">+1 (520)329-4993</p>
             </div>
           </div>
           <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm p-5 flex items-center gap-3">
